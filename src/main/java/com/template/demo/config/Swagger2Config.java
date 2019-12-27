@@ -51,8 +51,8 @@ public class Swagger2Config {
      */
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("全景分析API文档")
-                .description("全景分析")
+                .title("模板项目的API文档")
+                .description("模板项目，记得到Swagger2Config修改")
                 .version("1.0")
                 .build();
     }
